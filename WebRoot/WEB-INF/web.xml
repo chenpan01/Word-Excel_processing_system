@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.bjsxt.servlet.UserServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserServlet2</servlet-name>
+    <servlet-class>edu.jxust.servlet.UserServlet2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ResourceServlet</servlet-name>
+    <servlet-class>edu.jxust.servlet.ResourceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Fileload</servlet-name>
+    <servlet-class>edu.jxust.servlet.Fileload</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Shiyan</servlet-name>
+    <servlet-class>com.bjsxt.servlet.Shiyan</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Xiala</servlet-name>
+    <servlet-class>com.bjsxt.servlet.Xiala</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Sim_servlet</servlet-name>
+    <servlet-class>com.bjsxt.servlet.Sim_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServiceTest</servlet-name>
+    <servlet-class>edu.jxust.shiy.ServiceTest</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Maildeal</servlet-name>
+    <servlet-class>com.bjsxt.servlet.Maildeal</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DoWord</servlet-name>
+    <servlet-class>edu.jxust.docutil.DoWord</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SendAttachment</servlet-name>
+    <servlet-class>com.bjsxt.servlet.SendAttachment</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Servlet_kcxx</servlet-name>
+    <servlet-class>com.bjsxt.servlet.Servlet_kcxx</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Servler_xsdeal</servlet-name>
+    <servlet-class>com.bjsxt.servlet.Servler_xsdeal</servlet-class>
+  </servlet>
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/UserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserServlet2</servlet-name>
+    <url-pattern>/UserServlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResourceServlet</servlet-name>
+    <url-pattern>/ResourceServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Fileload</servlet-name>
+    <url-pattern>/Fileload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Shiyan</servlet-name>
+    <url-pattern>/Shiyan</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Xiala</servlet-name>
+    <url-pattern>/Xiala</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sim_servlet</servlet-name>
+    <url-pattern>/Sim_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServiceTest</servlet-name>
+    <url-pattern>/ServiceTest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Maildeal</servlet-name>
+    <url-pattern>/Maildeal</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DoWord</servlet-name>
+    <url-pattern>/DoWord</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SendAttachment</servlet-name>
+    <url-pattern>/SendAttachment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Servlet_kcxx</servlet-name>
+    <url-pattern>/Servlet_kcxx</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Servler_xsdeal</servlet-name>
+    <url-pattern>/Servler_xsdeal</url-pattern>
+  </servlet-mapping>
+ 
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

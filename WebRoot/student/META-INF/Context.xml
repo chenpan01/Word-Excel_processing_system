@@ -1,0 +1,5 @@
+<Context>//Context头字母需是大写
+ <Resource name="mail/Session" auth="Container" type="javax.mail.Session"
+            mail.smtp.host="smtp.sina.com" mail.smtp.auth="true"  
+            mail.transport.protocol="smtp"/>
+</Context>
